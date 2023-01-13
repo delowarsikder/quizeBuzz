@@ -1,7 +1,7 @@
 import LoginLogo from '../../assets/images/login.svg'
 
 import classes from '../../styles/login.module.css'
-import SubmitButton from '../Button'
+import Button from '../Button'
 import CheckBox from '../CheckBox'
 import Form from '../Form'
 import Illustration from '../Illustration'
@@ -18,7 +18,7 @@ export default function SignUp() {
           <TextInput type='text' placeholder="Enter Password" icon='lock' />
           <CheckBox />
 
-          <SubmitButton text="Submit Now" />
+          <Button>  <span>Submit Now</span> </Button>
 
           <div className="info">
             Don't have an account? <a href="signup.html">Signup</a> instead.
