@@ -1,7 +1,7 @@
 import Account from "./Account";
 import classes from '../styles/Nav.module.css';
 import logo from '../assets/images/logo-bg.png';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 
 function Nav() {
@@ -10,12 +10,10 @@ function Nav() {
       <nav className={classes.nav}>
         <ul>
           <li>
-            <Router>
               <a href={"index.html"} className={classes.brand}>
                 <img src={logo} alt="Learn with Fun" />
                 <h3>Hands On Learning</h3>
               </a>
-            </Router>
           </li>
         </ul>
         <Account />
