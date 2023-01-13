@@ -7,7 +7,7 @@ function Account() {
       <span className="material-icons-outlined" title="Account">
         account_circle
       </span>
-      <a href="signup.html">Signup</a>
+      <a href={"signup.html"}>Signup</a>
     </div>
   );
 }
