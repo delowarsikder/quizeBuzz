@@ -1,6 +1,9 @@
 import Illustration from './Illustration'
 import Form from './Form'
 import TextInput from './TextInput'
+import CheckBox from './CheckBox'
+import SubmitButton from './SubmitButton'
+
 import classes from '../styles/SignUp.module.css'
 
 export default function SignUp() {
@@ -14,6 +17,9 @@ export default function SignUp() {
           <TextInput type='text' placeholder="Enter Email" icon='alternate_email' />
           <TextInput type='text' placeholder="Enter Password" icon='lock' />
           <TextInput type='text' placeholder="Confirm password" icon='lock_clock' />
+          <CheckBox />
+          <SubmitButton/>
+
         </Form>
       </div>
     </>
