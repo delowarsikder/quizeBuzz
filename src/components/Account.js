@@ -1,4 +1,5 @@
 import classes from '../styles/Account.module.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function Account() {
   return (
@@ -7,7 +8,9 @@ function Account() {
       <span className="material-icons-outlined" title="Account">
         account_circle
       </span>
-      <a href={"signup.html"}>Signup</a>
+      <Router>
+        <a href={"signup.html"}>Signup</a>
+      </Router>
     </div>
   );
 }
