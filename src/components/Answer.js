@@ -1,11 +1,15 @@
-import classes from '../styles/Answer.module.css'
+import classes from '../styles/Answer.module.css';
+import CheckBox from './CheckBox';
 
-export default function Answer({ className, text, ...rest }) {
+export default function Answer() {
   return (
-    <label className={`${className} ${classes.answer}`} {...rest}>
-      <input type="checkbox" {...rest} />
-      {text}
-    </label>
+    <>
+      <CheckBox className={`${classes.answer} ${classes.correct}`} text="answer no 1" />
+      <CheckBox className={`${classes.answer}`} text="answer no 2" />
+      <CheckBox className={`${classes.answer}`} text="answer no 3" />
+      <CheckBox className={`${classes.answer} ${classes.wrong}`} text="answer no 4" />
+      <CheckBox className={`${classes.answer}`} text="answer no 5" />
+    </>
   );
 }
 

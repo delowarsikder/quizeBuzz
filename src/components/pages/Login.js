@@ -10,14 +10,15 @@ import TextInput from '../TextInput'
 export default function SignUp() {
   return (
     <>
-      <h1>Create an account</h1>
+      <h1>Login to your account</h1>
       <div className="column">
         <Illustration src={LoginLogo} alt="Login" />
         <Form className={`${classes.login}`}>
           <TextInput type='text' placeholder="Enter Email" icon='alternate_email' />
           <TextInput type='text' placeholder="Enter Password" icon='lock' />
-          <CheckBox />
-
+          <CheckBox >
+            <span>I agree to the Terms & Conditions</span>
+          </CheckBox>
           <Button>  <span>Submit Now</span> </Button>
 
           <div className="info">
