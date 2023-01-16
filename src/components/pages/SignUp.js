@@ -6,6 +6,8 @@ import TextInput from '../TextInput'
 
 import SignUpLogo from '../../assets/images/signup.svg'
 import classes from '../../styles/SignUp.module.css'
+import { Link } from 'react-router-dom'
+
 
 export default function SignUp() {
   return (
@@ -25,7 +27,7 @@ export default function SignUp() {
           <Button>  <span>Submit Now</span> </Button>
 
           <div className="info">
-            Already have an account? <a href="login.html">Login</a> instead.
+            Already have an account? <Link to="/login">Login</Link> instead.
           </div>
 
         </Form>

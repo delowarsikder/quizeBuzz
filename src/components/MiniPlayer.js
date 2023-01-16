@@ -7,7 +7,8 @@ export default function MiniPlayer() {
       <span className={`material-icons-outlined ${classes.open}`}> play_circle_filled </span>
       <span className={`material-icons-outlined ${classes.close}`}> close </span>
       <img src={image} alt="" />
-      <p>#23 React Hooks Bangla - React useReducer hook Bangla</p>
+      <p>Title Here</p>
     </div>
   );
 }
+
