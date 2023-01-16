@@ -109,5 +109,8 @@
   left: 50%;
   position: absolute;
   transform: rotate(45deg) translate(-50%, 100%);
+  display: block;
 }
+
+
 

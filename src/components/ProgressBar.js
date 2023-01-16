@@ -7,7 +7,7 @@ export default function ProgressBar() {
       <div className={classes.backButton}>
         <span className="material-icons-outlined"> arrow_back </span>
       </div>
-      
+
       <div className={classes.rangeArea}>
         <div className={classes.tooltip}>24% Cimplete!</div>
         <div className={classes.rangeBody}>
@@ -24,3 +24,5 @@ export default function ProgressBar() {
     </div >
   );
 }
+
+
